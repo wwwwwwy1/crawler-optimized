@@ -1,0 +1,71 @@
+{
+  "visited_fingerprints": {
+    "tv.danmaku.bili/.MainActivityV2": [
+      "0000100100000000008000000000000001000100000001000100010001000000",
+      "0000100100000000008000000000000001000100010000000100010001000000",
+      "0000100100020000008000000000000001000100010001000100010001000000",
+      "0000100100000000008000000000000001000100000001000100010001000000",
+      "0000000000001000400100000000000000000000000000000000000000000000"
+    ],
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity": [
+      "0000000000800080000010000002000000000000000000000000000000000000",
+      "0000000000000000000000000400200104000000040000000000000004000001",
+      "0000000000800080000012000002000000000000000000000000000000000000",
+      "0000000000000000001000000001000000000400000100000000000000000000",
+      "0000000000800080000010400002000000000000000000000000000000000000"
+    ],
+    "tv.danmaku.bili/com.bilibili.lib.ui.GeneralActivity": [
+      "0000000000000000400040000000000000000000400000000000000000004000"
+    ]
+  },
+  "explored_state_keys": [
+    "tv.danmaku.bili/.MainActivityV2|3f3e7c30a058cfedabf02dfe07ebc6b2",
+    "tv.danmaku.bili/com.bilibili.lib.ui.GeneralActivity|ba4acc7b9aa82a1861a0676bcd13d4af",
+    "tv.danmaku.bili/.MainActivityV2|d63fce5df5b01b360aa27c43252006a7",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|ec982de3e0c38eadf6d1c0913f5bd8b6",
+    "tv.danmaku.bili/.MainActivityV2|cab3be6276f629a1a1f1e4be0722f23d",
+    "tv.danmaku.bili/.MainActivityV2|752169210b74a79a9459134c25a3d148",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|e0658fad34f278c3843d1a5db93f3a3b",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|07adcdb93f053f53f8810e735967081f",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|8d58910a7296d668afdceced94de71a6",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|8a9a5f1d5bfbf7c872a46ab1c14a5e32",
+    "tv.danmaku.bili/.MainActivityV2|313d3b0ad9367221f2ea83e952d037d3",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|8f1824c0be9662cba6a6c5bd2c788ca5",
+    "tv.danmaku.bili/.MainActivityV2|b049e6896dbe16b1f85f970ea84ac67b"
+  ],
+  "captured_state_keys": [
+    "tv.danmaku.bili/.MainActivityV2|3f3e7c30a058cfedabf02dfe07ebc6b2",
+    "tv.danmaku.bili/com.bilibili.lib.ui.GeneralActivity|ba4acc7b9aa82a1861a0676bcd13d4af",
+    "tv.danmaku.bili/.MainActivityV2|d63fce5df5b01b360aa27c43252006a7",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|ec982de3e0c38eadf6d1c0913f5bd8b6",
+    "tv.danmaku.bili/.MainActivityV2|cab3be6276f629a1a1f1e4be0722f23d",
+    "tv.danmaku.bili/.MainActivityV2|752169210b74a79a9459134c25a3d148",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|e0658fad34f278c3843d1a5db93f3a3b",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|07adcdb93f053f53f8810e735967081f",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|8d58910a7296d668afdceced94de71a6",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|8a9a5f1d5bfbf7c872a46ab1c14a5e32",
+    "tv.danmaku.bili/.MainActivityV2|313d3b0ad9367221f2ea83e952d037d3",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|8f1824c0be9662cba6a6c5bd2c788ca5",
+    "tv.danmaku.bili/.MainActivityV2|b049e6896dbe16b1f85f970ea84ac67b"
+  ],
+  "image_phashes": [
+    "ecd1b3c4cc8a9b64",
+    "8f0fcfcd04d2d21a",
+    "8ff1f1c00fe01bf0",
+    "8ef28485d98bf44d",
+    "860fdfcf06919b12",
+    "8f1ff01f610e46e1",
+    "ee13cca6a48c9b3a",
+    "dc0991e4ec938b75",
+    "860eddc706d3d153",
+    "a285c19d7a8572bd",
+    "807e007fff00ff03"
+  ],
+  "completed_tabs": [
+    0,
+    1
+  ],
+  "screenshots_taken": 11,
+  "total_actions": 11,
+  "timestamp": "2026-07-26T19:32:18.862401"
+}

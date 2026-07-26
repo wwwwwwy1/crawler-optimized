@@ -1,0 +1,52 @@
+{
+  "visited_fingerprints": {
+    "tv.danmaku.bili/.MainActivityV2": [
+      "0000100101000100010001000000010001000000000001000100010001000000",
+      "0000100100000000008000000000000001000100000001000100010001000000"
+    ],
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity": [
+      "0000000000800080000002040002000000000000000000000000000000000000",
+      "0000000000000000040000010400000000000000000000000000040000000000",
+      "0000000000000000040000010000000000000000000004000000000000000000",
+      "0000000000800080000020040002000000000000000000000000000000000000",
+      "0000000000000000001000000001000000000400000100000000000000000000",
+      "0000000000000000001000000001000004000400000100000000000000000000"
+    ]
+  },
+  "explored_state_keys": [
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|a03ab45612ca33c10245e9f8ae04afe8",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|998d400130a7649cc92713d39f8b5666",
+    "tv.danmaku.bili/.MainActivityV2|c8b433749f96642927363eb3873b84f3",
+    "tv.danmaku.bili/.MainActivityV2|38881eb12db67131fcfbc9d8b5b71a7e",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|95063d832afe9698ef08153694d7741f",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|7774fce9d5ec8a3f3524bed594122850",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|74f6ccfe80e250505433f1c064601cef",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|f05459b6b4358754915e0fbe3f71abbb"
+  ],
+  "captured_state_keys": [
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|a03ab45612ca33c10245e9f8ae04afe8",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|998d400130a7649cc92713d39f8b5666",
+    "tv.danmaku.bili/.MainActivityV2|c8b433749f96642927363eb3873b84f3",
+    "tv.danmaku.bili/.MainActivityV2|38881eb12db67131fcfbc9d8b5b71a7e",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|95063d832afe9698ef08153694d7741f",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|7774fce9d5ec8a3f3524bed594122850",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|74f6ccfe80e250505433f1c064601cef",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|f05459b6b4358754915e0fbe3f71abbb"
+  ],
+  "image_phashes": [
+    "b9e4e41ec2938e8e",
+    "860c9dcf46d3d313",
+    "8ff8e006f00ff1f0",
+    "8f1ff00ee0f00ff0",
+    "ebd1cba52c849c66",
+    "840d9ddf0693d372",
+    "8ffef093840fe0c1",
+    "8f1ff11f0ef141c0"
+  ],
+  "completed_tabs": [
+    0
+  ],
+  "screenshots_taken": 8,
+  "total_actions": 6,
+  "timestamp": "2026-07-26T19:13:06.905851"
+}

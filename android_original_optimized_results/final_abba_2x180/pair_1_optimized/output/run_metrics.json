@@ -1,0 +1,74 @@
+{
+  "started_at": "2026-07-26T11:42:17.243697+00:00",
+  "finished_at": "2026-07-26T11:45:02.371574+00:00",
+  "elapsed_seconds": 165.1246944580016,
+  "context": {
+    "serial": "127.0.0.1:5555",
+    "device": {
+      "device_model": "ALN-AL00",
+      "android_version": "12",
+      "screen_resolution": "1440x2560"
+    },
+    "app": {
+      "package_name": "tv.danmaku.bili",
+      "app_name": "tv.danmaku.bili",
+      "version_name": "9.4.0"
+    },
+    "limits": {
+      "max_depth": 1,
+      "max_screenshots": 200,
+      "max_states": 500,
+      "max_total_actions": 500,
+      "max_runtime_seconds": 1200,
+      "scroll_max_times": 3,
+      "image_phash_threshold": 6
+    }
+  },
+  "counters": {
+    "hierarchy_dumps": 100,
+    "activity_queries": 238,
+    "states_explored": 29,
+    "capture_attempts": 30,
+    "screenshots_saved": 23,
+    "actions_attempted": 26,
+    "actions_clicked": 26,
+    "transitions_detected": 26,
+    "depth_limit_hits": 22,
+    "parent_restore_retries": 6,
+    "app_restarts": 1,
+    "parent_restore_failures": 3,
+    "same_activity_transitions": 11,
+    "parent_template_mismatch_accepted": 21,
+    "known_states_skipped": 4,
+    "image_duplicates_rejected": 5,
+    "capture_quality_or_io_failures": 2
+  },
+  "timings": {
+    "hierarchy_dump": {
+      "count": 100,
+      "total_seconds": 39.39642375499898,
+      "max_seconds": 1.86622966700088,
+      "average_seconds": 0.39396423754998977
+    },
+    "activity_query": {
+      "count": 238,
+      "total_seconds": 7.003866869974445,
+      "max_seconds": 0.05185404200165067,
+      "average_seconds": 0.029428012058716153
+    },
+    "capture": {
+      "count": 30,
+      "total_seconds": 12.53055821099042,
+      "max_seconds": 0.7810814580006991,
+      "average_seconds": 0.41768527369968067
+    }
+  },
+  "rates": {
+    "screenshots_per_hour": 501.4392321619686,
+    "transition_rate_per_action": 1.0,
+    "capture_success_rate": 0.7666666666666667,
+    "duplicate_rejection_rate": 0.16666666666666666,
+    "screenshots_per_explored_state": 0.7931034482758621,
+    "actions_per_saved_screenshot": 1.1304347826086956
+  }
+}

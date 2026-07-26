@@ -1,0 +1,114 @@
+{
+  "device": "127.0.0.1:5555",
+  "package": "tv.danmaku.bili",
+  "seconds_per_run": 120,
+  "runs": [
+    {
+      "name": "original",
+      "elapsed_seconds": 120.21291579099852,
+      "returncode": 0,
+      "timed_out": true,
+      "screenshots": 11,
+      "metadata_rows": 11,
+      "screenshots_per_hour": 329.4155186190503,
+      "pair": 1
+    },
+    {
+      "name": "optimized",
+      "elapsed_seconds": 120.1465512499999,
+      "returncode": 0,
+      "timed_out": true,
+      "screenshots": 13,
+      "metadata_rows": 13,
+      "screenshots_per_hour": 389.524289404021,
+      "run_metrics": {
+        "started_at": "2026-07-26T11:24:02.518337+00:00",
+        "finished_at": "2026-07-26T11:25:47.514262+00:00",
+        "elapsed_seconds": 104.99265962500067,
+        "context": {
+          "serial": "127.0.0.1:5555",
+          "device": {
+            "device_model": "ALN-AL00",
+            "android_version": "12",
+            "screen_resolution": "1440x2560"
+          },
+          "app": {
+            "package_name": "tv.danmaku.bili",
+            "app_name": "tv.danmaku.bili",
+            "version_name": "9.4.0"
+          },
+          "limits": {
+            "max_depth": 3,
+            "max_screenshots": 200,
+            "max_states": 500,
+            "max_total_actions": 500,
+            "max_runtime_seconds": 1200,
+            "scroll_max_times": 3,
+            "image_phash_threshold": 6
+          }
+        },
+        "counters": {
+          "hierarchy_dumps": 61,
+          "activity_queries": 137,
+          "states_explored": 15,
+          "capture_attempts": 15,
+          "screenshots_saved": 13,
+          "actions_attempted": 14,
+          "actions_clicked": 14,
+          "transitions_detected": 13,
+          "deep_actions_pruned": 17,
+          "same_activity_transitions": 9,
+          "depth_limit_hits": 4,
+          "parent_template_mismatch_accepted": 6,
+          "image_duplicates_rejected": 2,
+          "parent_restore_failures": 6,
+          "parent_restore_retries": 5,
+          "known_states_skipped": 2
+        },
+        "timings": {
+          "hierarchy_dump": {
+            "count": 61,
+            "total_seconds": 18.484378667999408,
+            "max_seconds": 1.005691417001799,
+            "average_seconds": 0.3030226011147444
+          },
+          "activity_query": {
+            "count": 137,
+            "total_seconds": 4.10540121100712,
+            "max_seconds": 0.05688874999759719,
+            "average_seconds": 0.029966432197132263
+          },
+          "capture": {
+            "count": 15,
+            "total_seconds": 7.070703417000914,
+            "max_seconds": 0.7944955409984686,
+            "average_seconds": 0.4713802278000609
+          }
+        },
+        "rates": {
+          "screenshots_per_hour": 445.74544703557603,
+          "transition_rate_per_action": 0.9285714285714286,
+          "capture_success_rate": 0.8666666666666667,
+          "duplicate_rejection_rate": 0.13333333333333333,
+          "screenshots_per_explored_state": 0.8666666666666667,
+          "actions_per_saved_screenshot": 1.0769230769230769
+        }
+      },
+      "pair": 1
+    }
+  ],
+  "aggregate": {
+    "original": {
+      "runs": 1,
+      "total_screenshots": 11,
+      "average_screenshots_per_hour": 329.4155186190503,
+      "average_metadata_rows": 11.0
+    },
+    "optimized": {
+      "runs": 1,
+      "total_screenshots": 13,
+      "average_screenshots_per_hour": 389.524289404021,
+      "average_metadata_rows": 13.0
+    }
+  }
+}

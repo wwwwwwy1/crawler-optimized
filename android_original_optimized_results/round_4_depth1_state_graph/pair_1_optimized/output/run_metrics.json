@@ -1,0 +1,73 @@
+{
+  "started_at": "2026-07-26T11:35:44.795038+00:00",
+  "finished_at": "2026-07-26T11:37:30.200103+00:00",
+  "elapsed_seconds": 105.39483970899892,
+  "context": {
+    "serial": "127.0.0.1:5555",
+    "device": {
+      "device_model": "ALN-AL00",
+      "android_version": "12",
+      "screen_resolution": "1440x2560"
+    },
+    "app": {
+      "package_name": "tv.danmaku.bili",
+      "app_name": "tv.danmaku.bili",
+      "version_name": "9.4.0"
+    },
+    "limits": {
+      "max_depth": 1,
+      "max_screenshots": 200,
+      "max_states": 500,
+      "max_total_actions": 500,
+      "max_runtime_seconds": 1200,
+      "scroll_max_times": 3,
+      "image_phash_threshold": 6
+    }
+  },
+  "counters": {
+    "hierarchy_dumps": 54,
+    "activity_queries": 114,
+    "states_explored": 13,
+    "capture_attempts": 14,
+    "screenshots_saved": 12,
+    "actions_attempted": 12,
+    "actions_clicked": 12,
+    "transitions_detected": 12,
+    "depth_limit_hits": 9,
+    "parent_restore_retries": 4,
+    "app_restarts": 1,
+    "parent_restore_failures": 2,
+    "same_activity_transitions": 5,
+    "image_duplicates_rejected": 1,
+    "parent_template_mismatch_accepted": 8,
+    "known_states_skipped": 2
+  },
+  "timings": {
+    "hierarchy_dump": {
+      "count": 54,
+      "total_seconds": 17.542300581975724,
+      "max_seconds": 1.87896683299914,
+      "average_seconds": 0.3248574181847356
+    },
+    "activity_query": {
+      "count": 114,
+      "total_seconds": 3.2601389099763765,
+      "max_seconds": 0.0558772090007551,
+      "average_seconds": 0.02859770973663488
+    },
+    "capture": {
+      "count": 14,
+      "total_seconds": 6.181824418996257,
+      "max_seconds": 0.6808353750020615,
+      "average_seconds": 0.4415588870711612
+    }
+  },
+  "rates": {
+    "screenshots_per_hour": 409.8872403931505,
+    "transition_rate_per_action": 1.0,
+    "capture_success_rate": 0.8571428571428571,
+    "duplicate_rejection_rate": 0.07142857142857142,
+    "screenshots_per_explored_state": 0.9230769230769231,
+    "actions_per_saved_screenshot": 1.0
+  }
+}

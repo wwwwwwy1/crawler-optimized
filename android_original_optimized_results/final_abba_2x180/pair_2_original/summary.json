@@ -1,0 +1,15 @@
+{
+  "name": "original",
+  "elapsed_seconds": 180.31244549999974,
+  "returncode": 0,
+  "timed_out": true,
+  "screenshots": 15,
+  "metadata_rows": 15,
+  "exact_unique_images": 15,
+  "near_unique_images_dhash12": 14,
+  "near_unique_images_per_hour": 279.51481585335205,
+  "near_duplicate_ratio": 0.06666666666666665,
+  "unique_activities": 10,
+  "restart_count": 4,
+  "screenshots_per_hour": 299.4801598428772
+}

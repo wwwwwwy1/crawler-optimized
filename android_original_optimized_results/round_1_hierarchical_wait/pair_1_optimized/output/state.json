@@ -1,0 +1,77 @@
+{
+  "visited_fingerprints": {
+    "tv.danmaku.bili/.MainActivityV2": [
+      "0000100101000100010001000000010001000000010101000100010000000000",
+      "0000000000000000400100000000000000000000000000000000000000000000"
+    ],
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity": [
+      "0000000000800080000000a40002000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000040000010000000000000000000004000000000000000400",
+      "0000000000800080000022080002000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "tv.danmaku.bili/com.bilibili.lib.ui.GeneralActivity": [
+      "0000000000000000400040000000000000000000400000000000000000004000"
+    ],
+    "tv.danmaku.bili/com.bilibili.bplus.followinglist.page.browser.ui.LightBrowserActivityV2": [
+      "0000000000000000000000000000000000000000000000000000000000010000"
+    ],
+    "tv.danmaku.bili/com.bilibili.studio.centerplus.ui.CenterPlusMainActivity": [
+      "0000000000000000000000000000000002000000000000000000000000000000"
+    ],
+    "tv.danmaku.bili/com.bilibili.video.story.StoryVideoActivity": [
+      "0000020002000200020002000200020002000200020102010201020042000000"
+    ]
+  },
+  "explored_state_keys": [
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|bd447142bb6b3ce20e3aabc27ec76a32",
+    "tv.danmaku.bili/com.bilibili.studio.centerplus.ui.CenterPlusMainActivity|dae9c8e7683096e3472a03a2c6fc8efc",
+    "tv.danmaku.bili/com.bilibili.video.story.StoryVideoActivity|26c4be6de532853f0815408f24b4d3a6",
+    "tv.danmaku.bili/.MainActivityV2|80fb074b2c2b3832f816c8231d3597aa",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|750883d347b1a7d7e6c76574ff41210c",
+    "tv.danmaku.bili/com.bilibili.bplus.followinglist.page.browser.ui.LightBrowserActivityV2|4e1fe021750f997aa967d0f065aaf493",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|1806a189dd5ffa64129d3aa1ece76263",
+    "tv.danmaku.bili/com.bilibili.lib.ui.GeneralActivity|662558d41c7909264d9aea1e69ea0b5a",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|6b080a308355eb44bc493c6fe4563e81",
+    "tv.danmaku.bili/com.bilibili.studio.centerplus.ui.CenterPlusMainActivity|48726690353f2b3e9e5966046210c3a1",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|2506b7a88eb209ac415e5948c1a15ffe",
+    "tv.danmaku.bili/.MainActivityV2|9783adb886dcace8cf562f267bcee8f4"
+  ],
+  "captured_state_keys": [
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|bd447142bb6b3ce20e3aabc27ec76a32",
+    "tv.danmaku.bili/com.bilibili.video.story.StoryVideoActivity|26c4be6de532853f0815408f24b4d3a6",
+    "tv.danmaku.bili/.MainActivityV2|80fb074b2c2b3832f816c8231d3597aa",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|750883d347b1a7d7e6c76574ff41210c",
+    "tv.danmaku.bili/com.bilibili.bplus.followinglist.page.browser.ui.LightBrowserActivityV2|4e1fe021750f997aa967d0f065aaf493",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|1806a189dd5ffa64129d3aa1ece76263",
+    "tv.danmaku.bili/com.bilibili.lib.ui.GeneralActivity|662558d41c7909264d9aea1e69ea0b5a",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|6b080a308355eb44bc493c6fe4563e81",
+    "tv.danmaku.bili/com.bilibili.studio.centerplus.ui.CenterPlusMainActivity|48726690353f2b3e9e5966046210c3a1",
+    "tv.danmaku.bili/com.bilibili.search2.main.BiliMainSearchActivity|2506b7a88eb209ac415e5948c1a15ffe",
+    "tv.danmaku.bili/.MainActivityV2|9783adb886dcace8cf562f267bcee8f4"
+  ],
+  "image_phashes": [
+    "bbeca4bdc911844b",
+    "860cddd706d1d1d3",
+    "8ff9e1021ef00ff0",
+    "8f1ff00fe1f00cf0",
+    "a284c19d7a8573bd",
+    "807f007f7f20ff01",
+    "a2155dabe2148d6f",
+    "c8f872ccc93366cc",
+    "8dcd31d67e1d4823",
+    "860dddc507d2d25b",
+    "8ff1f7e01e409187"
+  ],
+  "completed_tabs": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "screenshots_taken": 11,
+  "total_actions": 11,
+  "timestamp": "2026-07-26T19:20:27.862089"
+}

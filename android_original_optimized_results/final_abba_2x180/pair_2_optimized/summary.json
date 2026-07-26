@@ -1,0 +1,88 @@
+{
+  "name": "optimized",
+  "elapsed_seconds": 180.19206120799936,
+  "returncode": 0,
+  "timed_out": true,
+  "screenshots": 17,
+  "metadata_rows": 17,
+  "exact_unique_images": 17,
+  "near_unique_images_dhash12": 17,
+  "near_unique_images_per_hour": 339.6376043967642,
+  "near_duplicate_ratio": 0.0,
+  "unique_activities": 7,
+  "restart_count": 0,
+  "screenshots_per_hour": 339.6376043967642,
+  "run_metrics": {
+    "started_at": "2026-07-26T11:45:18.263733+00:00",
+    "finished_at": "2026-07-26T11:48:03.350201+00:00",
+    "elapsed_seconds": 165.08244079199721,
+    "context": {
+      "serial": "127.0.0.1:5555",
+      "device": {
+        "device_model": "ALN-AL00",
+        "android_version": "12",
+        "screen_resolution": "1440x2560"
+      },
+      "app": {
+        "package_name": "tv.danmaku.bili",
+        "app_name": "tv.danmaku.bili",
+        "version_name": "9.4.0"
+      },
+      "limits": {
+        "max_depth": 1,
+        "max_screenshots": 200,
+        "max_states": 500,
+        "max_total_actions": 500,
+        "max_runtime_seconds": 1200,
+        "scroll_max_times": 3,
+        "image_phash_threshold": 6
+      }
+    },
+    "counters": {
+      "hierarchy_dumps": 99,
+      "activity_queries": 224,
+      "states_explored": 23,
+      "capture_attempts": 23,
+      "screenshots_saved": 17,
+      "actions_attempted": 25,
+      "actions_clicked": 25,
+      "transitions_detected": 25,
+      "depth_limit_hits": 18,
+      "same_activity_transitions": 15,
+      "dangerous_states_skipped": 1,
+      "parent_template_mismatch_accepted": 18,
+      "image_duplicates_rejected": 6,
+      "known_states_skipped": 4,
+      "parent_restore_retries": 3,
+      "parent_restore_failures": 1
+    },
+    "timings": {
+      "hierarchy_dump": {
+        "count": 99,
+        "total_seconds": 35.65139983801055,
+        "max_seconds": 1.707833500000561,
+        "average_seconds": 0.3601151498788944
+      },
+      "activity_query": {
+        "count": 224,
+        "total_seconds": 6.785122167006193,
+        "max_seconds": 0.052798709002672695,
+        "average_seconds": 0.030290723959849077
+      },
+      "capture": {
+        "count": 23,
+        "total_seconds": 9.656378749987198,
+        "max_seconds": 0.6852269589981006,
+        "average_seconds": 0.41984255434726947
+      }
+    },
+    "rates": {
+      "screenshots_per_hour": 370.7238620072961,
+      "transition_rate_per_action": 1.0,
+      "capture_success_rate": 0.7391304347826086,
+      "duplicate_rejection_rate": 0.2608695652173913,
+      "screenshots_per_explored_state": 0.7391304347826086,
+      "actions_per_saved_screenshot": 1.4705882352941178
+    }
+  }
+}
