@@ -1,4 +1,4 @@
-python==3.10.8
+python==3.12（3.12下的版本应该都行）
 greenlet==3.5.4
 numpy==2.5.1
 pillow==12.3.0
