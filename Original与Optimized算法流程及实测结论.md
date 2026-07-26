@@ -6,10 +6,9 @@
 
 | 版本 | 目录 | 定位 |
 |---|---|---|
-| Original | `crawler_original/` | GitHub 原版 `a25894c` |
-| Optimized | `crawler_optimized/` | 最终状态感知算法版 |
+| Original | `crawler_original/` |飞哥 GitHub 原版|
+| Optimized | `crawler_optimized/` | 我最终优化的状态感知算法版 |
 
-`crawler/` 工程优化版不参与算法结论，也不参与本次实验。
 
 测试对象为 MuMu 模拟器中的 B站 9.4.0：
 
@@ -22,7 +21,7 @@
 
 ## 二、算法具体变化
 
-BFS + dHash 变为 状态感知的有界遍历 + 感知图像去重
+【BFS + dHash】 变为 【状态感知的有界遍历 + 感知图像去重】
 
 | 维度 | Original | Optimized | 优化原因 |
 |---|---|---|---|
@@ -69,8 +68,8 @@ Depth 3 理论上能到达更多层级，但 B站实际页面中存在大量视�
 深度 2/3 作为按 App、按模板开启的可选策略
 ```
 
-这不是退回 Original。Optimized 仍保留状态图、模板识别、优先级、分级等待、
-父状态校验和截图 pHash。
+Optimized 仍保留状态图、模板识别、优先级、分级等待、
+父状态校验和截图 pHash
 
 ## 四、最终流程
 
@@ -98,13 +97,13 @@ flowchart TD
     P --> L
 ```
 
-## 五、优化演进
+## 五、做Optimized的优化路径
 
 ### V0：原始 Optimized
 
 - Depth 3；
 - 每轮高频完整 hierarchy dump；
-- 父状态要求精确 `state_key` 相等。
+- 父状态要求精确 `state_key` 相等
 
 120 秒烟测：
 
@@ -120,7 +119,7 @@ hierarchy dump：125 次，32.6 秒
 - Activity 先行检测；
 - Activity 不变时才读取控件树；
 - 深层动作递减；
-- 同模板连续深入限制。
+- 同模板连续深入限制
 
 120 秒烟测：
 
@@ -134,9 +133,9 @@ hierarchy dump：57 次，16.5 秒
 ### V2：一次返回优先
 
 - 返回后命中目标 Activity 即接受；
-- 模板偏差只记录，不连续盲目返回。
+- 模板偏差只记录，不连续盲目返回
 
-该版本提高了状态产出，但 Depth 2/3 仍有明显恢复成本。
+该版本提高了状态产出，但 Depth 2/3 仍有明显恢复成本
 
 ### V3：Depth 2
 
@@ -148,15 +147,15 @@ hierarchy dump：57 次，16.5 秒
 重启：5 次
 ```
 
-吞吐提高，但覆盖和稳定性仍未达到目标。
+吞吐提高，但覆盖和稳定性仍未达到目标
 
 ### V4：最终 Depth 1 状态图
 
 - 先横向覆盖；
 - 子状态截图，不继续点击孙页；
-- 保留同 Activity 状态识别和实际图片去重。
+- 保留同 Activity 状态识别和实际图片去重
 
-进入正式 AB/BA 后，吞吐、覆盖和稳定性同时优于 Original。
+进入正式 AB/BA 后，吞吐、覆盖和稳定性同时优于 Original
 
 ## 六、正式 Android AB/BA 实验
 
@@ -174,7 +173,7 @@ android_original_optimized_results/final_abba_2x180/
 每次最长 180 秒
 ```
 
-两组均使用相同模拟器、账号、B站版本、分辨率和网络。
+两组均使用相同模拟器、账号、B站版本、分辨率和网络
 
 ### 单次结果
 
@@ -204,26 +203,26 @@ Optimized 两次运行都保存了实际截图和对应 Metadata：
 
 ## 七、结果分析
 
-### 效率
+### 最看重的效率
 
 统一离线 dHash 去近重后，Optimized 中位数为 399.6 张/小时，Original 为
-219.6 张/小时，提升 82.0%。这比只比较原始截图数更接近项目的有效产出目标。
+219.6 张/小时，提升 82.0%。这比只比较原始截图数更接近项目的有效产出目标
 
-### 覆盖
+### 第二点覆盖率
 
 Optimized Activity 中位数提高 20%，且两次运行分别识别 11 和 15 个
 同 Activity 状态转移。说明 Depth 1 没有简单降低覆盖，而是通过状态识别获得
-Original 会漏掉的 Fragment、Tab 和弹窗状态。
+Original 会漏掉的 Fragment、Tab 和弹窗状态
 
-### 去重
+### 结果娇艳的去重
 
-Optimized 两次运行分别在线拒绝 5 和 6 张近重复图。最终保存图再经过统一
-dHash 检查后，近重复占比为 0%；Original 中位数为 13.3%。
+Optimized 两次运行分别在线拒绝 5 和 6 张近重复图
+最终保存图再经过统一dHash检查后，近重复占比为 0%；Original 中位数为 13.3%
 
 ### 稳定性
 
-Optimized 重启中位数从 3.0 降到 0.5。父状态恢复仍有少量失败，但没有再造成
-高频重启，已经达到当前模拟器 Pilot 可接受水平。
+Optimized 重启中位数从 3.0 降到 0.5
+父状态恢复仍有少量失败，但没有再造成高频重启，已经达到当前模拟器 Pilot 可接受水平
 
 ## 八、当前结论和限制
 
@@ -233,27 +232,26 @@ Optimized 重启中位数从 3.0 降到 0.5。父状态恢复仍有少量失败�
 - 吞吐、覆盖、重复率和稳定性同时改善；
 - 17 个离线测试全部通过；
 - Ruff 和 Python 语法检查通过；
-- `crawler_original` tracked 源文件未修改。
 
-仍不能直接推导 800 万规模的最终交付指标：
+后续要成为最终交付的目标（to-do）：
 
 - 当前只有一个 App、一个模拟器和两组正式运行；
 - dHash 是近重复代理指标，仍需人工抽检；
 - 设计感、隐私、分类和最终有效率未在本实验中人工标注；
-- 正式生产前应扩展到至少 5 个 App、3 种设备和每版本 500-1000 张抽检。
+- 正式生产前应扩展到至少6-8个app、3-5台设备和每版本500-1000张截图抽检
 
 ## 九、复现实验
 
 ```bash
-cd /Users/bytedance/Downloads/项目
+cd 文件夹所在路径
 
-/Users/bytedance/Downloads/项目/.venv-crawler/bin/python \
+文件夹所在路径.venv-crawler/bin/python \
   run_android_ab.py \
   --pairs 2 \
   --seconds 180 \
   --output android_original_optimized_results/recheck
 ```
-
+--.venv-optimized 是虚拟环境，如果按照配置来的话，也可以不用它（太大不好上传）
 输出：
 
 ```text
@@ -265,7 +263,7 @@ pair_2_optimized/
 pair_2_original/
 ```
 
-主结论应优先查看：
+主要结论优先查看：
 
 ```text
 dHash 去近重图片/小时
@@ -273,3 +271,4 @@ dHash 去近重图片/小时
 dHash 近重复占比
 App 重启次数
 ```
+测试指标这块可以补充一下，看看有没有更直接能体现项目需求的，更全面的
