@@ -1,0 +1,56 @@
+{
+  "mode": "optimized",
+  "elapsed_seconds": 14.011098041024525,
+  "counters": {
+    "pages_attempted": 5,
+    "pages_loaded": 5,
+    "screenshots_attempted": 5,
+    "screenshots_saved": 5
+  },
+  "unique_states": 5,
+  "unique_url_families": 5,
+  "errors": [],
+  "timings": {
+    "page_load": {
+      "count": 5,
+      "total_seconds": 2.4002395420102403,
+      "average_seconds": 0.48004790840204803,
+      "max_seconds": 0.9372728340094909
+    },
+    "state_wait": {
+      "count": 5,
+      "total_seconds": 7.715529916866217,
+      "average_seconds": 1.5431059833732435,
+      "max_seconds": 5.151511457981542
+    },
+    "state_fingerprint": {
+      "count": 5,
+      "total_seconds": 0.043800541025120765,
+      "average_seconds": 0.008760108205024153,
+      "max_seconds": 0.011046333995182067
+    },
+    "screenshot": {
+      "count": 5,
+      "total_seconds": 0.7586675009224564,
+      "average_seconds": 0.15173350018449128,
+      "max_seconds": 0.1927804169827141
+    }
+  },
+  "rates": {
+    "pages_per_minute": 21.411598086145666,
+    "screenshots_per_hour": 1284.69588516874,
+    "saved_per_loaded_page": 1.0,
+    "states_per_loaded_page": 1.0
+  },
+  "config": {
+    "input": "/Users/bytedance/Downloads/项目/crawler_optimized/input/bilibili_validation_urls.csv",
+    "max_pages": 5,
+    "max_depth": 3,
+    "max_runtime": 180.0,
+    "discover": false,
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    }
+  }
+}

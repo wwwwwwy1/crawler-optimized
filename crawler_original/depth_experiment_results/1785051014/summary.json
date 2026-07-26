@@ -1,0 +1,410 @@
+{
+  "device": "127.0.0.1:5555",
+  "package": "tv.danmaku.bili",
+  "baseline_depth": 1,
+  "deeper_depth": 3,
+  "depth_action_limits": {
+    "1": 4,
+    "2": 2
+  },
+  "max_deep_activity_expansions": 2,
+  "pairs": 3,
+  "seconds_per_run": 600,
+  "runs": [
+    {
+      "configured_max_depth": 1,
+      "depth_action_limits": {
+        "1": 4,
+        "2": 2
+      },
+      "max_deep_activity_expansions": 2,
+      "max_depth_invoked": 1,
+      "explore_calls_by_depth": {
+        "0": 7,
+        "1": 78
+      },
+      "explore_inclusive_seconds_by_depth": {
+        "0": 534.408504,
+        "1": 48.704229
+      },
+      "actions_discovered_by_depth": {
+        "0": 144
+      },
+      "actions_returned_by_depth": {
+        "0": 144
+      },
+      "actions_pruned_by_depth": {},
+      "deep_actions_pruned": 0,
+      "screenshots_saved_by_depth": {
+        "0": 7,
+        "1": 73
+      },
+      "deep_activity_expansion_skips": 0,
+      "backtrack_calls": 10,
+      "backtrack_failures": 0,
+      "backtrack_seconds": 6.055516832991998,
+      "go_back_calls": 89,
+      "go_back_seconds": 2.9195291649957653,
+      "restart_calls": 0,
+      "restart_seconds": 0.0,
+      "screenshots": 80,
+      "actions": 129,
+      "variant": "baseline",
+      "device": "127.0.0.1:5555",
+      "package": "tv.danmaku.bili",
+      "elapsed_seconds": 585.6760033750033,
+      "metadata_rows": 80,
+      "unique_activities": 19,
+      "exact_unique_images": 75,
+      "near_unique_images_dhash12": 70,
+      "screenshots_per_hour": 491.73945720906727,
+      "near_unique_images_per_hour": 430.2720250579339,
+      "near_duplicate_ratio": 0.125,
+      "actions_per_screenshot": 1.6125,
+      "returncode": 0,
+      "timed_out": true,
+      "result_dir": "/Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_1_baseline_d1",
+      "pair": 1
+    },
+    {
+      "configured_max_depth": 3,
+      "depth_action_limits": {
+        "1": 4,
+        "2": 2
+      },
+      "max_deep_activity_expansions": 2,
+      "max_depth_invoked": 3,
+      "explore_calls_by_depth": {
+        "0": 5,
+        "1": 31,
+        "2": 10,
+        "3": 8
+      },
+      "explore_inclusive_seconds_by_depth": {
+        "0": 538.084133,
+        "1": 269.675616,
+        "2": 82.312559,
+        "3": 0.804158
+      },
+      "actions_discovered_by_depth": {
+        "0": 73,
+        "1": 316,
+        "2": 58
+      },
+      "actions_returned_by_depth": {
+        "0": 73,
+        "1": 49,
+        "2": 14
+      },
+      "actions_pruned_by_depth": {
+        "1": 267,
+        "2": 44
+      },
+      "deep_actions_pruned": 311,
+      "screenshots_saved_by_depth": {
+        "0": 5,
+        "1": 30,
+        "2": 9,
+        "3": 1
+      },
+      "deep_activity_expansion_skips": 20,
+      "backtrack_calls": 20,
+      "backtrack_failures": 9,
+      "backtrack_seconds": 67.5673076660023,
+      "go_back_calls": 80,
+      "go_back_seconds": 3.012292167994019,
+      "restart_calls": 9,
+      "restart_seconds": 43.06589650100068,
+      "screenshots": 45,
+      "actions": 109,
+      "variant": "deeper",
+      "device": "127.0.0.1:5555",
+      "package": "tv.danmaku.bili",
+      "elapsed_seconds": 582.7009295839998,
+      "metadata_rows": 45,
+      "unique_activities": 13,
+      "exact_unique_images": 44,
+      "near_unique_images_dhash12": 43,
+      "screenshots_per_hour": 278.0156882805294,
+      "near_unique_images_per_hour": 265.6594354680614,
+      "near_duplicate_ratio": 0.0444444444444444,
+      "actions_per_screenshot": 2.422222222222222,
+      "returncode": 0,
+      "timed_out": true,
+      "result_dir": "/Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_1_deeper_d3",
+      "pair": 1
+    },
+    {
+      "configured_max_depth": 3,
+      "depth_action_limits": {
+        "1": 4,
+        "2": 2
+      },
+      "max_deep_activity_expansions": 2,
+      "max_depth_invoked": 3,
+      "explore_calls_by_depth": {
+        "0": 6,
+        "1": 31,
+        "2": 12,
+        "3": 5
+      },
+      "explore_inclusive_seconds_by_depth": {
+        "0": 526.510759,
+        "1": 234.363706,
+        "2": 68.739892,
+        "3": 0.141489
+      },
+      "actions_discovered_by_depth": {
+        "0": 102,
+        "1": 313,
+        "2": 49
+      },
+      "actions_returned_by_depth": {
+        "0": 102,
+        "1": 47,
+        "2": 11
+      },
+      "actions_pruned_by_depth": {
+        "1": 266,
+        "2": 38
+      },
+      "deep_actions_pruned": 304,
+      "screenshots_saved_by_depth": {
+        "0": 6,
+        "1": 30,
+        "2": 10
+      },
+      "deep_activity_expansion_skips": 22,
+      "backtrack_calls": 15,
+      "backtrack_failures": 8,
+      "backtrack_seconds": 81.10451733100854,
+      "go_back_calls": 73,
+      "go_back_seconds": 2.908030124985089,
+      "restart_calls": 13,
+      "restart_seconds": 61.5904932079975,
+      "screenshots": 46,
+      "actions": 125,
+      "variant": "deeper",
+      "device": "127.0.0.1:5555",
+      "package": "tv.danmaku.bili",
+      "elapsed_seconds": 583.2736076670008,
+      "metadata_rows": 46,
+      "unique_activities": 12,
+      "exact_unique_images": 40,
+      "near_unique_images_dhash12": 35,
+      "screenshots_per_hour": 283.9147834279233,
+      "near_unique_images_per_hour": 216.0221178255938,
+      "near_duplicate_ratio": 0.23913043478260865,
+      "actions_per_screenshot": 2.717391304347826,
+      "returncode": 0,
+      "timed_out": true,
+      "result_dir": "/Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_2_deeper_d3",
+      "pair": 2
+    },
+    {
+      "configured_max_depth": 1,
+      "depth_action_limits": {
+        "1": 4,
+        "2": 2
+      },
+      "max_deep_activity_expansions": 2,
+      "max_depth_invoked": 1,
+      "explore_calls_by_depth": {
+        "0": 7,
+        "1": 81
+      },
+      "explore_inclusive_seconds_by_depth": {
+        "0": 528.908106,
+        "1": 51.168333
+      },
+      "actions_discovered_by_depth": {
+        "0": 141
+      },
+      "actions_returned_by_depth": {
+        "0": 141
+      },
+      "actions_pruned_by_depth": {},
+      "deep_actions_pruned": 0,
+      "screenshots_saved_by_depth": {
+        "0": 7,
+        "1": 77
+      },
+      "deep_activity_expansion_skips": 0,
+      "backtrack_calls": 7,
+      "backtrack_failures": 0,
+      "backtrack_seconds": 4.187353293000342,
+      "go_back_calls": 90,
+      "go_back_seconds": 2.9136715859967808,
+      "restart_calls": 0,
+      "restart_seconds": 0.0,
+      "screenshots": 84,
+      "actions": 131,
+      "variant": "baseline",
+      "device": "127.0.0.1:5555",
+      "package": "tv.danmaku.bili",
+      "elapsed_seconds": 585.3566453340027,
+      "metadata_rows": 84,
+      "unique_activities": 19,
+      "exact_unique_images": 79,
+      "near_unique_images_dhash12": 70,
+      "screenshots_per_hour": 516.6081267044495,
+      "near_unique_images_per_hour": 430.506772253708,
+      "near_duplicate_ratio": 0.16666666666666663,
+      "actions_per_screenshot": 1.5595238095238095,
+      "returncode": 0,
+      "timed_out": true,
+      "result_dir": "/Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_2_baseline_d1",
+      "pair": 2
+    },
+    {
+      "configured_max_depth": 1,
+      "depth_action_limits": {
+        "1": 4,
+        "2": 2
+      },
+      "max_deep_activity_expansions": 2,
+      "max_depth_invoked": 0,
+      "explore_calls_by_depth": {},
+      "explore_inclusive_seconds_by_depth": {},
+      "actions_discovered_by_depth": {},
+      "actions_returned_by_depth": {},
+      "actions_pruned_by_depth": {},
+      "deep_actions_pruned": 0,
+      "screenshots_saved_by_depth": {},
+      "deep_activity_expansion_skips": 0,
+      "backtrack_calls": 0,
+      "backtrack_failures": 0,
+      "backtrack_seconds": 0.0,
+      "go_back_calls": 0,
+      "go_back_seconds": 0.0,
+      "restart_calls": 0,
+      "restart_seconds": 0.0,
+      "screenshots": 0,
+      "actions": 0,
+      "variant": "baseline",
+      "device": "127.0.0.1:5555",
+      "package": "tv.danmaku.bili",
+      "elapsed_seconds": 19.210492291000264,
+      "metadata_rows": 0,
+      "unique_activities": 0,
+      "exact_unique_images": 0,
+      "near_unique_images_dhash12": 0,
+      "screenshots_per_hour": 0.0,
+      "near_unique_images_per_hour": 0.0,
+      "near_duplicate_ratio": 1.0,
+      "actions_per_screenshot": 0.0,
+      "returncode": 0,
+      "timed_out": false,
+      "result_dir": "/Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_3_baseline_d1",
+      "pair": 3
+    },
+    {
+      "configured_max_depth": 3,
+      "depth_action_limits": {
+        "1": 4,
+        "2": 2
+      },
+      "max_deep_activity_expansions": 2,
+      "max_depth_invoked": 3,
+      "explore_calls_by_depth": {
+        "0": 6,
+        "1": 28,
+        "2": 13,
+        "3": 6
+      },
+      "explore_inclusive_seconds_by_depth": {
+        "0": 532.091713,
+        "1": 263.737375,
+        "2": 68.885684,
+        "3": 0.906194
+      },
+      "actions_discovered_by_depth": {
+        "0": 92,
+        "1": 285,
+        "2": 75
+      },
+      "actions_returned_by_depth": {
+        "0": 92,
+        "1": 51,
+        "2": 11
+      },
+      "actions_pruned_by_depth": {
+        "1": 234,
+        "2": 64
+      },
+      "deep_actions_pruned": 298,
+      "screenshots_saved_by_depth": {
+        "0": 6,
+        "1": 27,
+        "2": 11,
+        "3": 2
+      },
+      "deep_activity_expansion_skips": 19,
+      "backtrack_calls": 16,
+      "backtrack_failures": 9,
+      "backtrack_seconds": 78.0946382940092,
+      "go_back_calls": 81,
+      "go_back_seconds": 3.2882714130028035,
+      "restart_calls": 12,
+      "restart_seconds": 56.583222962002765,
+      "screenshots": 46,
+      "actions": 123,
+      "variant": "deeper",
+      "device": "127.0.0.1:5555",
+      "package": "tv.danmaku.bili",
+      "elapsed_seconds": 585.6869403749988,
+      "metadata_rows": 46,
+      "unique_activities": 15,
+      "exact_unique_images": 43,
+      "near_unique_images_dhash12": 39,
+      "screenshots_per_hour": 282.7449078751372,
+      "near_unique_images_per_hour": 239.7185088506598,
+      "near_duplicate_ratio": 0.15217391304347827,
+      "actions_per_screenshot": 2.6739130434782608,
+      "returncode": 0,
+      "timed_out": true,
+      "result_dir": "/Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_3_deeper_d3",
+      "pair": 3
+    }
+  ],
+  "aggregate": {
+    "baseline": {
+      "elapsed_seconds": 585.3566453340027,
+      "screenshots": 80.0,
+      "screenshots_per_hour": 491.73945720906727,
+      "near_unique_images_per_hour": 430.2720250579339,
+      "near_duplicate_ratio": 0.16666666666666663,
+      "actions": 129.0,
+      "actions_per_screenshot": 1.5595238095238095,
+      "max_depth_invoked": 1.0,
+      "unique_activities": 19.0,
+      "exact_unique_images": 75.0,
+      "near_unique_images_dhash12": 70.0,
+      "deep_actions_pruned": 0.0,
+      "deep_activity_expansion_skips": 0.0,
+      "backtrack_failures": 0.0,
+      "backtrack_seconds": 4.187353293000342,
+      "restart_calls": 0.0,
+      "restart_seconds": 0.0
+    },
+    "deeper": {
+      "elapsed_seconds": 583.2736076670008,
+      "screenshots": 46.0,
+      "screenshots_per_hour": 282.7449078751372,
+      "near_unique_images_per_hour": 239.7185088506598,
+      "near_duplicate_ratio": 0.15217391304347827,
+      "actions": 123.0,
+      "actions_per_screenshot": 2.6739130434782608,
+      "max_depth_invoked": 3.0,
+      "unique_activities": 13.0,
+      "exact_unique_images": 43.0,
+      "near_unique_images_dhash12": 39.0,
+      "deep_actions_pruned": 304.0,
+      "deep_activity_expansion_skips": 20.0,
+      "backtrack_failures": 9.0,
+      "backtrack_seconds": 78.0946382940092,
+      "restart_calls": 12.0,
+      "restart_seconds": 56.583222962002765
+    }
+  }
+}

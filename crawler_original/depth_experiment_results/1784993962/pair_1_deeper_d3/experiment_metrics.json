@@ -1,0 +1,22 @@
+{
+  "configured_max_depth": 3,
+  "max_depth_invoked": 3,
+  "explore_calls_by_depth": {
+    "0": 2,
+    "1": 11,
+    "2": 13,
+    "3": 16
+  },
+  "screenshots": 33,
+  "actions": 114,
+  "variant": "deeper",
+  "device": "127.0.0.1:5555",
+  "package": "tv.danmaku.bili",
+  "elapsed_seconds": 582.0310434169951,
+  "metadata_rows": 33,
+  "unique_activities": 9,
+  "exact_unique_images": 32,
+  "near_unique_images_dhash12": 31,
+  "screenshots_per_hour": 204.11282412454753,
+  "actions_per_screenshot": 3.4545454545454546
+}

@@ -1,0 +1,6 @@
+mode,file_name,source_url,depth,state_id,url_family,sha256,perceptual_hash
+optimized,0001_f61df2e2ec56.png,https://www.bilibili.com/anime,0,0088aa4bbe1d38360e472734ab4443d1,www.bilibili.com/anime,f61df2e2ec567d38af13ea6fc3b7cd52282aca14d432bcbec6fd6053d5230b60,9614b4bc6a49cbcb
+optimized,0002_5cb7d407131b.png,https://www.bilibili.com/documentary,0,8d535a4abedfa77f18b243ce1509c0e7,www.bilibili.com/documentary,5cb7d407131b9ceb5c237804530a8ddc4df6e9487f9de77f3d5d4c2d65c628b5,c11f3dc3a43be04e
+optimized,0003_1b90b1d24995.png,https://www.bilibili.com/c/game/,0,a7de7a1d10ddd05c8117214e972d21ee,www.bilibili.com/c/game,1b90b1d24995ae9ee1e4982e1917850a1d197f476a20049045463aed6faca5f1,bf1450141e6f69d9
+optimized,0004_afe09d68133d.png,https://www.bilibili.com/c/music/,0,8400544e2dc95c26c8e01a1d134777e1,www.bilibili.com/c/music,afe09d68133dde2fc744c60acfc2d3134a878d3575c0dad095cfef70475d9447,fad5d4161d626a91
+optimized,0005_1be0673141e5.png,https://www.bilibili.com/c/dance/,0,1e235dbacda739cf5aa77f3e96d573d1,www.bilibili.com/c/dance,1be0673141e5ddedcedc3dfc25e1c7cc92c0df8581cf90d7cba339b3c8064746,efd01518576e6c91

@@ -1,0 +1,319 @@
+{
+  "pairs": 2,
+  "max_pages": 5,
+  "runs": {
+    "baseline": [
+      {
+        "mode": "baseline",
+        "elapsed_seconds": 17.3813856249908,
+        "counters": {
+          "pages_attempted": 5,
+          "pages_loaded": 5,
+          "screenshots_attempted": 5,
+          "screenshots_saved": 5
+        },
+        "unique_states": 5,
+        "unique_url_families": 5,
+        "errors": [],
+        "timings": {
+          "page_load": {
+            "count": 5,
+            "total_seconds": 3.3317321250215173,
+            "average_seconds": 0.6663464250043034,
+            "max_seconds": 0.8991534999804571
+          },
+          "state_wait": {
+            "count": 5,
+            "total_seconds": 10.00413045892492,
+            "average_seconds": 2.000826091784984,
+            "max_seconds": 2.0011592080118135
+          },
+          "state_fingerprint": {
+            "count": 5,
+            "total_seconds": 0.04885891597950831,
+            "average_seconds": 0.009771783195901662,
+            "max_seconds": 0.014597415982279927
+          },
+          "screenshot": {
+            "count": 5,
+            "total_seconds": 0.838135582045652,
+            "average_seconds": 0.1676271164091304,
+            "max_seconds": 0.19552354101324454
+          }
+        },
+        "rates": {
+          "pages_per_minute": 17.25984374736285,
+          "screenshots_per_hour": 1035.5906248417712,
+          "saved_per_loaded_page": 1.0,
+          "states_per_loaded_page": 1.0
+        },
+        "config": {
+          "input": "/Users/bytedance/Downloads/项目/crawler_optimized/input/bilibili_validation_urls.csv",
+          "max_pages": 5,
+          "max_depth": 1,
+          "max_runtime": 180.0,
+          "discover": false,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      },
+      {
+        "mode": "baseline",
+        "elapsed_seconds": 16.81894533301238,
+        "counters": {
+          "pages_attempted": 5,
+          "pages_loaded": 5,
+          "screenshots_attempted": 5,
+          "screenshots_saved": 5
+        },
+        "unique_states": 5,
+        "unique_url_families": 5,
+        "errors": [],
+        "timings": {
+          "page_load": {
+            "count": 5,
+            "total_seconds": 2.7528204169357195,
+            "average_seconds": 0.5505640833871439,
+            "max_seconds": 0.8723738749977201
+          },
+          "state_wait": {
+            "count": 5,
+            "total_seconds": 10.006661414983682,
+            "average_seconds": 2.0013322829967364,
+            "max_seconds": 2.003768916008994
+          },
+          "state_fingerprint": {
+            "count": 5,
+            "total_seconds": 0.04692220705328509,
+            "average_seconds": 0.009384441410657019,
+            "max_seconds": 0.014455875032581389
+          },
+          "screenshot": {
+            "count": 5,
+            "total_seconds": 0.8504972500377335,
+            "average_seconds": 0.1700994500075467,
+            "max_seconds": 0.19096558302408084
+          }
+        },
+        "rates": {
+          "pages_per_minute": 17.83702806924268,
+          "screenshots_per_hour": 1070.2216841545608,
+          "saved_per_loaded_page": 1.0,
+          "states_per_loaded_page": 1.0
+        },
+        "config": {
+          "input": "/Users/bytedance/Downloads/项目/crawler_optimized/input/bilibili_validation_urls.csv",
+          "max_pages": 5,
+          "max_depth": 1,
+          "max_runtime": 180.0,
+          "discover": false,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      }
+    ],
+    "optimized": [
+      {
+        "mode": "optimized",
+        "elapsed_seconds": 13.621685584017541,
+        "counters": {
+          "pages_attempted": 5,
+          "pages_loaded": 5,
+          "screenshots_attempted": 5,
+          "screenshots_saved": 5
+        },
+        "unique_states": 5,
+        "unique_url_families": 5,
+        "errors": [],
+        "timings": {
+          "page_load": {
+            "count": 5,
+            "total_seconds": 1.999273375084158,
+            "average_seconds": 0.3998546750168316,
+            "max_seconds": 0.8854268330032937
+          },
+          "state_wait": {
+            "count": 5,
+            "total_seconds": 7.697475916065741,
+            "average_seconds": 1.5394951832131483,
+            "max_seconds": 5.140361166035291
+          },
+          "state_fingerprint": {
+            "count": 5,
+            "total_seconds": 0.04648583190282807,
+            "average_seconds": 0.009297166380565613,
+            "max_seconds": 0.011259957973379642
+          },
+          "screenshot": {
+            "count": 5,
+            "total_seconds": 0.7407384990365244,
+            "average_seconds": 0.14814769980730488,
+            "max_seconds": 0.18765991600230336
+          }
+        },
+        "rates": {
+          "pages_per_minute": 22.023706108148097,
+          "screenshots_per_hour": 1321.422366488886,
+          "saved_per_loaded_page": 1.0,
+          "states_per_loaded_page": 1.0
+        },
+        "config": {
+          "input": "/Users/bytedance/Downloads/项目/crawler_optimized/input/bilibili_validation_urls.csv",
+          "max_pages": 5,
+          "max_depth": 3,
+          "max_runtime": 180.0,
+          "discover": false,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      },
+      {
+        "mode": "optimized",
+        "elapsed_seconds": 14.011098041024525,
+        "counters": {
+          "pages_attempted": 5,
+          "pages_loaded": 5,
+          "screenshots_attempted": 5,
+          "screenshots_saved": 5
+        },
+        "unique_states": 5,
+        "unique_url_families": 5,
+        "errors": [],
+        "timings": {
+          "page_load": {
+            "count": 5,
+            "total_seconds": 2.4002395420102403,
+            "average_seconds": 0.48004790840204803,
+            "max_seconds": 0.9372728340094909
+          },
+          "state_wait": {
+            "count": 5,
+            "total_seconds": 7.715529916866217,
+            "average_seconds": 1.5431059833732435,
+            "max_seconds": 5.151511457981542
+          },
+          "state_fingerprint": {
+            "count": 5,
+            "total_seconds": 0.043800541025120765,
+            "average_seconds": 0.008760108205024153,
+            "max_seconds": 0.011046333995182067
+          },
+          "screenshot": {
+            "count": 5,
+            "total_seconds": 0.7586675009224564,
+            "average_seconds": 0.15173350018449128,
+            "max_seconds": 0.1927804169827141
+          }
+        },
+        "rates": {
+          "pages_per_minute": 21.411598086145666,
+          "screenshots_per_hour": 1284.69588516874,
+          "saved_per_loaded_page": 1.0,
+          "states_per_loaded_page": 1.0
+        },
+        "config": {
+          "input": "/Users/bytedance/Downloads/项目/crawler_optimized/input/bilibili_validation_urls.csv",
+          "max_pages": 5,
+          "max_depth": 3,
+          "max_runtime": 180.0,
+          "discover": false,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      }
+    ]
+  },
+  "median": {
+    "baseline": {
+      "elapsed_seconds": 17.10016547900159,
+      "rates.pages_per_minute": 17.548435908302764,
+      "rates.screenshots_per_hour": 1052.906154498166,
+      "rates.saved_per_loaded_page": 1.0,
+      "timings.page_load.average_seconds": 0.6084552541957237,
+      "timings.state_wait.average_seconds": 2.00107918739086,
+      "timings.screenshot.average_seconds": 0.16886328320833854,
+      "unique_states": 5.0,
+      "unique_url_families": 5.0,
+      "counters.screenshots_saved": 5.0,
+      "counters.load_failures": 0.0
+    },
+    "optimized": {
+      "elapsed_seconds": 13.816391812521033,
+      "rates.pages_per_minute": 21.717652097146882,
+      "rates.screenshots_per_hour": 1303.059125828813,
+      "rates.saved_per_loaded_page": 1.0,
+      "timings.page_load.average_seconds": 0.4399512917094398,
+      "timings.state_wait.average_seconds": 1.5413005832931959,
+      "timings.screenshot.average_seconds": 0.1499405999958981,
+      "unique_states": 5.0,
+      "unique_url_families": 5.0,
+      "counters.screenshots_saved": 5.0,
+      "counters.load_failures": 0.0
+    }
+  },
+  "comparison": {
+    "elapsed_seconds": {
+      "baseline_median": 17.10016547900159,
+      "optimized_median": 13.816391812521033,
+      "change_ratio": -0.19203168943089566
+    },
+    "rates.pages_per_minute": {
+      "baseline_median": 17.548435908302764,
+      "optimized_median": 21.717652097146882,
+      "change_ratio": 0.23758334991390995
+    },
+    "rates.screenshots_per_hour": {
+      "baseline_median": 1052.906154498166,
+      "optimized_median": 1303.059125828813,
+      "change_ratio": 0.23758334991390986
+    },
+    "rates.saved_per_loaded_page": {
+      "baseline_median": 1.0,
+      "optimized_median": 1.0,
+      "change_ratio": 0.0
+    },
+    "timings.page_load.average_seconds": {
+      "baseline_median": 0.6084552541957237,
+      "optimized_median": 0.4399512917094398,
+      "change_ratio": -0.27693731186366033
+    },
+    "timings.state_wait.average_seconds": {
+      "baseline_median": 2.00107918739086,
+      "optimized_median": 1.5413005832931959,
+      "change_ratio": -0.2297653221295825
+    },
+    "timings.screenshot.average_seconds": {
+      "baseline_median": 0.16886328320833854,
+      "optimized_median": 0.1499405999958981,
+      "change_ratio": -0.11205919281513792
+    },
+    "unique_states": {
+      "baseline_median": 5.0,
+      "optimized_median": 5.0,
+      "change_ratio": 0.0
+    },
+    "unique_url_families": {
+      "baseline_median": 5.0,
+      "optimized_median": 5.0,
+      "change_ratio": 0.0
+    },
+    "counters.screenshots_saved": {
+      "baseline_median": 5.0,
+      "optimized_median": 5.0,
+      "change_ratio": 0.0
+    },
+    "counters.load_failures": {
+      "baseline_median": 0.0,
+      "optimized_median": 0.0,
+      "change_ratio": null
+    }
+  }
+}

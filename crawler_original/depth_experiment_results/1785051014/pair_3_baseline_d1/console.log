@@ -1,0 +1,91 @@
+[16:10:26][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 get-state
+[16:10:26][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 wait-for-device
+[16:10:26][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell getprop ro.build.version.sdk
+[16:10:26][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys activity top
+[16:10:26][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys package com.netease.open.pocoservice
+[16:10:26][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --no-rebind tcp:45180 tcp:10080
+[16:10:26][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --no-rebind tcp:27573 tcp:10081
+[16:10:26][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell am start -n com.netease.open.pocoservice/.TestActivity
+[16:10:26][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell am instrument -w -e debug false -e class com.netease.open.pocoservice.InstrumentedTestAsLauncher com.netease.open.pocoservice/androidx.test.runner.AndroidJUnitRunner
+[EXPERIMENT] variant=baseline, MAX_DEPTH=1, output=/Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_3_baseline_d1
+[INFO] 模拟器已连接: 127.0.0.1:5555
+[INFO] Poco 初始化完成
+[INFO] 开始遍历...
+[INFO] 有效Tab: 10
+
+  [DEBUG] Tab 0: 超出有效Tab数(0)
+[TAB 0] 切换失败, 跳过
+  [DEBUG] Tab 1: 超出有效Tab数(0)
+[TAB 1] 切换失败, 跳过
+  [DEBUG] Tab 2: 超出有效Tab数(0)
+[TAB 2] 切换失败, 跳过
+  [DEBUG] Tab 3: 超出有效Tab数(0)
+[TAB 3] 切换失败, 跳过
+  [DEBUG] Tab 4: 超出有效Tab数(0)
+[TAB 4] 切换失败, 跳过
+  [DEBUG] Tab 5: 超出有效Tab数(0)
+[TAB 5] 切换失败, 跳过
+  [DEBUG] Tab 6: 超出有效Tab数(0)
+[TAB 6] 切换失败, 跳过
+  [DEBUG] Tab 7: 超出有效Tab数(0)
+[TAB 7] 切换失败, 跳过
+  [DEBUG] Tab 8: 超出有效Tab数(0)
+[TAB 8] 切换失败, 跳过
+  [DEBUG] Tab 9: 超出有效Tab数(0)
+[TAB 9] 切换失败, 跳过
+
+[INFO] 滚动探索
+
+  [DEBUG] Tab 0: 超出有效Tab数(0)
+  [DEBUG] Tab 1: 超出有效Tab数(0)
+  [DEBUG] Tab 2: 超出有效Tab数(0)
+  [DEBUG] Tab 3: 超出有效Tab数(0)
+  [DEBUG] Tab 4: 超出有效Tab数(0)
+  [DEBUG] Tab 5: 超出有效Tab数(0)
+  [DEBUG] Tab 6: 超出有效Tab数(0)
+  [DEBUG] Tab 7: 超出有效Tab数(0)
+  [DEBUG] Tab 8: 超出有效Tab数(0)
+  [DEBUG] Tab 9: 超出有效Tab数(0)
+
+[DONE] 截图 0 张, 点击 0 次, 用时 0分19秒
+{
+  "configured_max_depth": 1,
+  "depth_action_limits": {
+    "1": 4,
+    "2": 2
+  },
+  "max_deep_activity_expansions": 2,
+  "max_depth_invoked": 0,
+  "explore_calls_by_depth": {},
+  "explore_inclusive_seconds_by_depth": {},
+  "actions_discovered_by_depth": {},
+  "actions_returned_by_depth": {},
+  "actions_pruned_by_depth": {},
+  "deep_actions_pruned": 0,
+  "screenshots_saved_by_depth": {},
+  "deep_activity_expansion_skips": 0,
+  "backtrack_calls": 0,
+  "backtrack_failures": 0,
+  "backtrack_seconds": 0.0,
+  "go_back_calls": 0,
+  "go_back_seconds": 0.0,
+  "restart_calls": 0,
+  "restart_seconds": 0.0,
+  "screenshots": 0,
+  "actions": 0,
+  "variant": "baseline",
+  "device": "127.0.0.1:5555",
+  "package": "tv.danmaku.bili",
+  "elapsed_seconds": 19.210492291000264,
+  "metadata_rows": 0,
+  "unique_activities": 0,
+  "exact_unique_images": 0,
+  "near_unique_images_dhash12": 0,
+  "screenshots_per_hour": 0.0,
+  "near_unique_images_per_hour": 0.0,
+  "near_duplicate_ratio": 1.0,
+  "actions_per_screenshot": 0.0
+}
+[EXPERIMENT_DONE] /Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_3_baseline_d1
+[16:10:59][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:45180
+[16:10:59][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:27573

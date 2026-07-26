@@ -1,0 +1,210 @@
+{
+  "pairs": 1,
+  "max_pages": 10,
+  "discover": true,
+  "runs": {
+    "baseline": [
+      {
+        "mode": "baseline",
+        "elapsed_seconds": 33.02216608298477,
+        "counters": {
+          "pages_attempted": 10,
+          "pages_loaded": 10,
+          "screenshots_attempted": 10,
+          "screenshots_saved": 10,
+          "links_enqueued": 19
+        },
+        "unique_states": 10,
+        "unique_url_families": 10,
+        "errors": [],
+        "timings": {
+          "page_load": {
+            "count": 10,
+            "total_seconds": 5.224791208980605,
+            "average_seconds": 0.5224791208980605,
+            "max_seconds": 0.9197812919737771
+          },
+          "state_wait": {
+            "count": 10,
+            "total_seconds": 20.010153209150303,
+            "average_seconds": 2.0010153209150303,
+            "max_seconds": 2.0011821250081994
+          },
+          "state_fingerprint": {
+            "count": 10,
+            "total_seconds": 0.05520400102250278,
+            "average_seconds": 0.005520400102250278,
+            "max_seconds": 0.010894250008277595
+          },
+          "screenshot": {
+            "count": 10,
+            "total_seconds": 1.6151158331194893,
+            "average_seconds": 0.16151158331194893,
+            "max_seconds": 0.19836612499784678
+          }
+        },
+        "rates": {
+          "pages_per_minute": 18.169613661690114,
+          "screenshots_per_hour": 1090.1768197014069,
+          "saved_per_loaded_page": 1.0,
+          "states_per_loaded_page": 1.0
+        },
+        "config": {
+          "input": "/Users/bytedance/Downloads/项目/crawler_web/input/urls.csv",
+          "max_pages": 10,
+          "max_depth": 1,
+          "max_runtime": 300.0,
+          "discover": true,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      }
+    ],
+    "optimized": [
+      {
+        "mode": "optimized",
+        "elapsed_seconds": 23.16308145900257,
+        "counters": {
+          "pages_attempted": 10,
+          "pages_loaded": 10,
+          "screenshots_attempted": 10,
+          "screenshots_saved": 10,
+          "links_enqueued": 68
+        },
+        "unique_states": 10,
+        "unique_url_families": 10,
+        "errors": [],
+        "timings": {
+          "page_load": {
+            "count": 10,
+            "total_seconds": 4.406828835897613,
+            "average_seconds": 0.4406828835897613,
+            "max_seconds": 0.8430039589875378
+          },
+          "state_wait": {
+            "count": 10,
+            "total_seconds": 11.267964666942134,
+            "average_seconds": 1.1267964666942134,
+            "max_seconds": 5.086532457964495
+          },
+          "state_fingerprint": {
+            "count": 10,
+            "total_seconds": 0.08015074901049957,
+            "average_seconds": 0.008015074901049957,
+            "max_seconds": 0.011286083026789129
+          },
+          "screenshot": {
+            "count": 10,
+            "total_seconds": 1.3946665410185233,
+            "average_seconds": 0.13946665410185233,
+            "max_seconds": 0.18304287502542138
+          }
+        },
+        "rates": {
+          "pages_per_minute": 25.903289295164303,
+          "screenshots_per_hour": 1554.1973577098581,
+          "saved_per_loaded_page": 1.0,
+          "states_per_loaded_page": 1.0
+        },
+        "config": {
+          "input": "/Users/bytedance/Downloads/项目/crawler_web/input/urls.csv",
+          "max_pages": 10,
+          "max_depth": 3,
+          "max_runtime": 300.0,
+          "discover": true,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      }
+    ]
+  },
+  "median": {
+    "baseline": {
+      "elapsed_seconds": 33.02216608298477,
+      "rates.pages_per_minute": 18.169613661690114,
+      "rates.screenshots_per_hour": 1090.1768197014069,
+      "rates.saved_per_loaded_page": 1.0,
+      "timings.page_load.average_seconds": 0.5224791208980605,
+      "timings.state_wait.average_seconds": 2.0010153209150303,
+      "timings.screenshot.average_seconds": 0.16151158331194893,
+      "unique_states": 10,
+      "unique_url_families": 10,
+      "counters.screenshots_saved": 10,
+      "counters.load_failures": 0
+    },
+    "optimized": {
+      "elapsed_seconds": 23.16308145900257,
+      "rates.pages_per_minute": 25.903289295164303,
+      "rates.screenshots_per_hour": 1554.1973577098581,
+      "rates.saved_per_loaded_page": 1.0,
+      "timings.page_load.average_seconds": 0.4406828835897613,
+      "timings.state_wait.average_seconds": 1.1267964666942134,
+      "timings.screenshot.average_seconds": 0.13946665410185233,
+      "unique_states": 10,
+      "unique_url_families": 10,
+      "counters.screenshots_saved": 10,
+      "counters.load_failures": 0
+    }
+  },
+  "comparison": {
+    "elapsed_seconds": {
+      "baseline_median": 33.02216608298477,
+      "optimized_median": 23.16308145900257,
+      "change_ratio": -0.2985595977927765
+    },
+    "rates.pages_per_minute": {
+      "baseline_median": 18.169613661690114,
+      "optimized_median": 25.903289295164303,
+      "change_ratio": 0.4256378686675285
+    },
+    "rates.screenshots_per_hour": {
+      "baseline_median": 1090.1768197014069,
+      "optimized_median": 1554.1973577098581,
+      "change_ratio": 0.42563786866752845
+    },
+    "rates.saved_per_loaded_page": {
+      "baseline_median": 1.0,
+      "optimized_median": 1.0,
+      "change_ratio": 0.0
+    },
+    "timings.page_load.average_seconds": {
+      "baseline_median": 0.5224791208980605,
+      "optimized_median": 0.4406828835897613,
+      "change_ratio": -0.15655407850117364
+    },
+    "timings.state_wait.average_seconds": {
+      "baseline_median": 2.0010153209150303,
+      "optimized_median": 1.1267964666942134,
+      "change_ratio": -0.4368876365329634
+    },
+    "timings.screenshot.average_seconds": {
+      "baseline_median": 0.16151158331194893,
+      "optimized_median": 0.13946665410185233,
+      "change_ratio": -0.13649132005299136
+    },
+    "unique_states": {
+      "baseline_median": 10,
+      "optimized_median": 10,
+      "change_ratio": 0.0
+    },
+    "unique_url_families": {
+      "baseline_median": 10,
+      "optimized_median": 10,
+      "change_ratio": 0.0
+    },
+    "counters.screenshots_saved": {
+      "baseline_median": 10,
+      "optimized_median": 10,
+      "change_ratio": 0.0
+    },
+    "counters.load_failures": {
+      "baseline_median": 0,
+      "optimized_median": 0,
+      "change_ratio": null
+    }
+  }
+}

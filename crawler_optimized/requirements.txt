@@ -1,0 +1,4 @@
+airtest==1.4.3
+pocoui==1.0.94
+opencv-contrib-python==4.6.0.66
+numpy==1.26.4

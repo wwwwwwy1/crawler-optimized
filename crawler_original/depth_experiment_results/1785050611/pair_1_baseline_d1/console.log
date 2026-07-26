@@ -1,0 +1,121 @@
+[15:23:34][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 get-state
+[15:23:34][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 wait-for-device
+[15:23:34][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell getprop ro.build.version.sdk
+[15:23:34][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys activity top
+[15:23:34][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys package com.netease.open.pocoservice
+[15:23:34][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --no-rebind tcp:38103 tcp:10080
+[15:23:34][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --no-rebind tcp:49131 tcp:10081
+[15:23:34][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell am start -n com.netease.open.pocoservice/.TestActivity
+[15:23:34][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell am instrument -w -e debug false -e class com.netease.open.pocoservice.InstrumentedTestAsLauncher com.netease.open.pocoservice/androidx.test.runner.AndroidJUnitRunner
+[15:23:51][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell ls -l /data/local/tmp/rotationwatcher.jar
+[15:23:51][DEBUG]<airtest.core.android.rotation> install_rotationwatcher skipped
+[15:23:51][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+[15:23:51][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[15:23:52][INFO]<airtest.core.android.rotation> update orientation None->0
+[15:23:52][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell wm size
+[15:23:52][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell getprop ro.sf.lcd_density
+[15:23:52][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys SurfaceFlinger
+[15:23:52][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys input
+[15:23:52][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell getevent -p
+[15:23:52][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell ls -l /data/local/tmp/maxpresent.jar
+[15:23:53][DEBUG]<airtest.core.android.touch_methods.maxtouch> install_maxtouch skipped
+[15:23:53][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --no-rebind tcp:18479 localabstract:maxpresent_18479
+[15:23:53][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_18479
+[15:23:53][DEBUG]<airtest.utils.nbsp> [airtouch_server]b'Metrics Message : 2560.0=====1440.0'
+[15:23:53][DEBUG]<airtest.utils.nbsp> [airtouch_server]b'Start local socket (maxpresent_18479) server...'
+[15:24:05][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[15:24:05][INFO]<airtest.core.android.rotation> update orientation 0->1
+[15:24:07][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[15:24:08][INFO]<airtest.core.android.rotation> update orientation 1->0
+[EXPERIMENT] variant=baseline, MAX_DEPTH=1, output=/Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785050611/pair_1_baseline_d1
+[INFO] 模拟器已连接: 127.0.0.1:5555
+[INFO] Poco 初始化完成
+[INFO] 开始遍历...
+[INFO] 有效Tab: 10
+
+[TAB 0] 开始
+  [1] com.bilibili.app.authorspace.local.LocalAuthorSpaceActivity (8s)
+  [2] .ui.webview.MWebActivity (15s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+[TAB 1] 开始
+  [3] .MainActivityV2 (29s)
+  [4] com.bilibili.lib.ui.GeneralActivity (34s)
+  [5] com.bilibili.app.authorspace.ui.AuthorSpaceActivity (50s)
+  [6] com.bilibili.app.authorspace.ui.AuthorSpaceActivity (58s)
+  [7] com.bilibili.lib.ui.GeneralActivity (62s)
+  [8] .ui.webview.MWebActivity (71s)
+  [9] .ui.webview.MWebActivity (74s)
+  [10] com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity (92s)
+[TAB 2] 开始
+  [11] .MainActivityV2 (108s)
+  [12] com.mall.ui.page.search.SearchFragmentLoadActivity (113s)
+  [13] com.mall.ui.page.base.MallWebFragmentLoaderActivity (118s)
+  [14] com.mall.ui.page.base.MallFragmentLoaderActivity (123s)
+  [15] com.mall.ui.page.base.MallFragmentLoaderActivity (127s)
+  [16] com.mall.ui.page.base.MallWebFragmentLoaderActivity (131s)
+  [17] com.mall.ui.page.base.MallWebFragmentLoaderActivity (137s)
+[TAB 3] 开始
+  [18] kntr.common.compose.launcher.VertexActivity (155s)
+
+[INFO] 中断, 保存状态...
+
+[DONE] 截图 18 张, 点击 37 次, 用时 2分43秒
+{
+  "configured_max_depth": 1,
+  "depth_action_limits": {
+    "1": 4,
+    "2": 2
+  },
+  "max_deep_activity_expansions": 2,
+  "max_depth_invoked": 1,
+  "explore_calls_by_depth": {
+    "0": 4,
+    "1": 14
+  },
+  "explore_inclusive_seconds_by_depth": {
+    "0": 136.980974,
+    "1": 10.224409
+  },
+  "actions_discovered_by_depth": {
+    "0": 38
+  },
+  "actions_returned_by_depth": {
+    "0": 38
+  },
+  "actions_pruned_by_depth": {},
+  "deep_actions_pruned": 0,
+  "screenshots_saved_by_depth": {
+    "0": 4,
+    "1": 14
+  },
+  "deep_activity_expansion_skips": 0,
+  "backtrack_calls": 3,
+  "backtrack_failures": 1,
+  "backtrack_seconds": 8.094433500999003,
+  "go_back_calls": 20,
+  "go_back_seconds": 0.609576750004635,
+  "restart_calls": 1,
+  "restart_seconds": 4.673158332996536,
+  "screenshots": 18,
+  "actions": 37,
+  "variant": "baseline",
+  "device": "127.0.0.1:5555",
+  "package": "tv.danmaku.bili",
+  "elapsed_seconds": 162.9149422920018,
+  "metadata_rows": 18,
+  "unique_activities": 10,
+  "exact_unique_images": 18,
+  "near_unique_images_dhash12": 16,
+  "screenshots_per_hour": 397.75357059547827,
+  "near_unique_images_per_hour": 353.55872941820286,
+  "near_duplicate_ratio": 0.11111111111111116,
+  "actions_per_screenshot": 2.0555555555555554
+}
+[EXPERIMENT_DONE] /Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785050611/pair_1_baseline_d1
+[15:26:32][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:38103
+[15:26:32][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:49131
+[15:26:32][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:18479
+[15:26:32][DEBUG]<airtest.utils.nbsp> [rotation_server]b''
+[15:26:32][DEBUG]<airtest.utils.nbsp> [airtouch_server]b''
+[15:26:32][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:18479

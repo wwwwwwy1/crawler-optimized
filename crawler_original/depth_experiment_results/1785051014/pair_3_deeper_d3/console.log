@@ -1,0 +1,238 @@
+[16:11:00][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 get-state
+[16:11:00][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 wait-for-device
+[16:11:00][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell getprop ro.build.version.sdk
+[16:11:00][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys activity top
+[16:11:00][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys package com.netease.open.pocoservice
+[16:11:00][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --no-rebind tcp:19153 tcp:10080
+[16:11:00][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --no-rebind tcp:25508 tcp:10081
+[16:11:00][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell am start -n com.netease.open.pocoservice/.TestActivity
+[16:11:00][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell am instrument -w -e debug false -e class com.netease.open.pocoservice.InstrumentedTestAsLauncher com.netease.open.pocoservice/androidx.test.runner.AndroidJUnitRunner
+[16:11:22][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell ls -l /data/local/tmp/rotationwatcher.jar
+[16:11:22][DEBUG]<airtest.core.android.rotation> install_rotationwatcher skipped
+[16:11:22][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+[16:11:22][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:11:23][INFO]<airtest.core.android.rotation> update orientation None->0
+[16:11:23][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell wm size
+[16:11:23][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell getprop ro.sf.lcd_density
+[16:11:23][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys SurfaceFlinger
+[16:11:23][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell dumpsys input
+[16:11:23][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell getevent -p
+[16:11:23][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell ls -l /data/local/tmp/maxpresent.jar
+[16:11:23][DEBUG]<airtest.core.android.touch_methods.maxtouch> install_maxtouch skipped
+[16:11:23][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --no-rebind tcp:33106 localabstract:maxpresent_33106
+[16:11:23][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_33106
+[16:11:24][DEBUG]<airtest.utils.nbsp> [airtouch_server]b'Metrics Message : 2560.0=====1440.0'
+[16:11:24][DEBUG]<airtest.utils.nbsp> [airtouch_server]b'Start local socket (maxpresent_33106) server...'
+[16:12:13][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:12:13][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:12:16][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:12:16][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:12:20][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:12:20][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:12:23][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:12:23][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:12:43][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:12:44][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:12:45][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:12:46][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:12:50][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:12:51][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:12:52][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:12:53][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:13:14][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:13:15][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:13:16][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:13:17][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:13:42][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:13:43][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:13:45][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:13:45][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:14:46][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:14:47][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:14:48][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:14:49][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:16:11][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:16:11][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:16:13][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:16:14][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:17:56][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:17:57][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:17:59][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:17:59][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:18:17][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:18:18][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:18:19][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:18:20][INFO]<airtest.core.android.rotation> update orientation 1->0
+[16:20:31][DEBUG]<airtest.utils.nbsp> [rotation_server]b'90'
+[16:20:31][INFO]<airtest.core.android.rotation> update orientation 0->1
+[16:20:33][DEBUG]<airtest.utils.nbsp> [rotation_server]b'0'
+[16:20:33][INFO]<airtest.core.android.rotation> update orientation 1->0
+[EXPERIMENT] variant=deeper, MAX_DEPTH=3, output=/Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_3_deeper_d3
+[INFO] 模拟器已连接: 127.0.0.1:5555
+[INFO] Poco 初始化完成
+[INFO] 开始遍历...
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+[INFO] 有效Tab: 9
+
+[TAB 0] 开始
+  [1] .MainActivityV2 (15s)
+  [2] com.bilibili.search2.main.BiliMainSearchActivity (20s)
+  [3] .ui.webview.MWebActivity (32s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [4] com.bilibili.biligame.ui.GameCenterHomeActivity (78s)
+  [5] com.bilibili.biligame.ui.gamelist.GameBookCenterActivityV2 (84s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [6] com.bilibili.lib.ui.GeneralActivity (113s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [7] .ui.webview.MWebActivity (130s)
+  [8] com.bilibili.biligame.ui.GameCenterHomeActivity (138s)
+  [9] com.bilibili.biligame.ui.gamelist.GameBookCenterActivityV2 (142s)
+  [10] com.bilibili.biligame.ui.search.v2.GameSearchActivityV2 (147s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [11] .ui.webview.MWebActivity (159s)
+  [12] com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity (169s)
+  [13] com.bilibili.lib.ui.GeneralActivity (173s)
+  [14] com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity (192s)
+  [15] com.bilibili.lib.ui.GeneralActivity (196s)
+  [16] com.bilibili.app.authorspace.local.LocalAuthorSpaceActivity (206s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [17] com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity (226s)
+  [18] com.bilibili.video.story.StoryVideoActivity (232s)
+  [19] com.bilibili.search2.main.BiliMainSearchActivity (236s)
+[TAB 1] 开始
+  [20] .MainActivityV2 (265s)
+  [21] com.bilibili.lib.ui.GeneralActivity (269s)
+  [22] com.bilibili.app.authorspace.ui.AuthorSpaceActivity (286s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [23] com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity (312s)
+  [24] com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity (320s)
+  [25] com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity (328s)
+  [26] com.bilibili.video.story.StoryVideoActivity (333s)
+  [27] com.bilibili.search2.main.BiliMainSearchActivity (338s)
+  [28] com.bilibili.video.story.StoryVideoActivity (350s)
+  [29] com.bilibili.video.story.StoryVideoActivity (357s)
+[TAB 2] 开始
+  [30] .MainActivityV2 (376s)
+  [31] com.mall.ui.page.search.SearchFragmentLoadActivity (381s)
+  [32] com.mall.ui.page.base.MallSearchWebFragmentLoadActivity (386s)
+  [33] com.bilibili.search2.main.BiliMainSearchActivity (400s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [34] kntr.common.compose.launcher.VertexActivity (413s)
+  [35] com.bilibili.biligame.ui.GameCenterHomeActivity (421s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [36] com.bilibili.video.story.StoryVideoActivity (436s)
+  [37] com.bilibili.video.story.StoryVideoActivity (441s)
+  [38] com.bilibili.video.story.StoryVideoActivity (446s)
+[TAB 3] 开始
+  [39] kntr.common.compose.launcher.VertexActivity (465s)
+  [DEBUG] 不在首页, 当前activity=tv.danmaku.bili/kntr.common.compose.launcher.VertexActivity, 尝试返回
+  [DEBUG] Tab 4: 超出有效Tab数(4)
+[TAB 4] 切换失败, 跳过
+  [DEBUG] Tab 5: 超出有效Tab数(4)
+[TAB 5] 切换失败, 跳过
+  [DEBUG] Tab 6: 超出有效Tab数(4)
+[TAB 6] 切换失败, 跳过
+  [DEBUG] Tab 7: 超出有效Tab数(4)
+[TAB 7] 切换失败, 跳过
+  [DEBUG] Tab 8: 超出有效Tab数(4)
+[TAB 8] 切换失败, 跳过
+
+[INFO] 滚动探索
+
+  [40] .MainActivityV2 (496s)
+  [41] com.bilibili.search2.main.BiliMainSearchActivity (500s)
+  [42] com.bilibili.lib.ui.GeneralActivity (515s)
+  [43] com.bilibili.studio.centerplus.ui.CenterPlusMainActivity (547s)
+  [44] com.bilibili.search2.main.BiliMainSearchActivity (554s)
+  [DEBUG] 不在首页, 当前activity=app.lawnchair/.LawnchairLauncher, 尝试返回
+  [DEBUG] 返回首页失败, 重启App
+  [45] .MainActivityV2 (567s)
+  [46] com.bilibili.search2.main.BiliMainSearchActivity (572s)
+
+[INFO] 中断, 保存状态...
+
+[DONE] 截图 46 张, 点击 123 次, 用时 9分46秒
+{
+  "configured_max_depth": 3,
+  "depth_action_limits": {
+    "1": 4,
+    "2": 2
+  },
+  "max_deep_activity_expansions": 2,
+  "max_depth_invoked": 3,
+  "explore_calls_by_depth": {
+    "0": 6,
+    "1": 28,
+    "2": 13,
+    "3": 6
+  },
+  "explore_inclusive_seconds_by_depth": {
+    "0": 532.091713,
+    "1": 263.737375,
+    "2": 68.885684,
+    "3": 0.906194
+  },
+  "actions_discovered_by_depth": {
+    "0": 92,
+    "1": 285,
+    "2": 75
+  },
+  "actions_returned_by_depth": {
+    "0": 92,
+    "1": 51,
+    "2": 11
+  },
+  "actions_pruned_by_depth": {
+    "1": 234,
+    "2": 64
+  },
+  "deep_actions_pruned": 298,
+  "screenshots_saved_by_depth": {
+    "0": 6,
+    "1": 27,
+    "2": 11,
+    "3": 2
+  },
+  "deep_activity_expansion_skips": 19,
+  "backtrack_calls": 16,
+  "backtrack_failures": 9,
+  "backtrack_seconds": 78.0946382940092,
+  "go_back_calls": 81,
+  "go_back_seconds": 3.2882714130028035,
+  "restart_calls": 12,
+  "restart_seconds": 56.583222962002765,
+  "screenshots": 46,
+  "actions": 123,
+  "variant": "deeper",
+  "device": "127.0.0.1:5555",
+  "package": "tv.danmaku.bili",
+  "elapsed_seconds": 585.6869403749988,
+  "metadata_rows": 46,
+  "unique_activities": 15,
+  "exact_unique_images": 43,
+  "near_unique_images_dhash12": 39,
+  "screenshots_per_hour": 282.7449078751372,
+  "near_unique_images_per_hour": 239.7185088506598,
+  "near_duplicate_ratio": 0.15217391304347827,
+  "actions_per_screenshot": 2.6739130434782608
+}
+[EXPERIMENT_DONE] /Users/bytedance/Downloads/项目/crawler_original/depth_experiment_results/1785051014/pair_3_deeper_d3
+[16:21:01][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:19153
+[16:21:01][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:25508
+[16:21:01][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:33106
+[16:21:01][DEBUG]<airtest.utils.nbsp> [rotation_server]b''
+[16:21:01][DEBUG]<airtest.utils.nbsp> [airtouch_server]b''
+[16:21:01][DEBUG]<airtest.core.android.adb> /opt/homebrew/Caskroom/android-platform-tools/37.0.1/platform-tools/adb -s 127.0.0.1:5555 forward --remove tcp:33106

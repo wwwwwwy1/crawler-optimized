@@ -1,0 +1,57 @@
+{
+  "mode": "optimized",
+  "elapsed_seconds": 23.16308145900257,
+  "counters": {
+    "pages_attempted": 10,
+    "pages_loaded": 10,
+    "screenshots_attempted": 10,
+    "screenshots_saved": 10,
+    "links_enqueued": 68
+  },
+  "unique_states": 10,
+  "unique_url_families": 10,
+  "errors": [],
+  "timings": {
+    "page_load": {
+      "count": 10,
+      "total_seconds": 4.406828835897613,
+      "average_seconds": 0.4406828835897613,
+      "max_seconds": 0.8430039589875378
+    },
+    "state_wait": {
+      "count": 10,
+      "total_seconds": 11.267964666942134,
+      "average_seconds": 1.1267964666942134,
+      "max_seconds": 5.086532457964495
+    },
+    "state_fingerprint": {
+      "count": 10,
+      "total_seconds": 0.08015074901049957,
+      "average_seconds": 0.008015074901049957,
+      "max_seconds": 0.011286083026789129
+    },
+    "screenshot": {
+      "count": 10,
+      "total_seconds": 1.3946665410185233,
+      "average_seconds": 0.13946665410185233,
+      "max_seconds": 0.18304287502542138
+    }
+  },
+  "rates": {
+    "pages_per_minute": 25.903289295164303,
+    "screenshots_per_hour": 1554.1973577098581,
+    "saved_per_loaded_page": 1.0,
+    "states_per_loaded_page": 1.0
+  },
+  "config": {
+    "input": "/Users/bytedance/Downloads/项目/crawler_web/input/urls.csv",
+    "max_pages": 10,
+    "max_depth": 3,
+    "max_runtime": 300.0,
+    "discover": true,
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    }
+  }
+}

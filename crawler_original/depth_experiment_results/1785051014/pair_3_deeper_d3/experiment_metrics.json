@@ -1,0 +1,64 @@
+{
+  "configured_max_depth": 3,
+  "depth_action_limits": {
+    "1": 4,
+    "2": 2
+  },
+  "max_deep_activity_expansions": 2,
+  "max_depth_invoked": 3,
+  "explore_calls_by_depth": {
+    "0": 6,
+    "1": 28,
+    "2": 13,
+    "3": 6
+  },
+  "explore_inclusive_seconds_by_depth": {
+    "0": 532.091713,
+    "1": 263.737375,
+    "2": 68.885684,
+    "3": 0.906194
+  },
+  "actions_discovered_by_depth": {
+    "0": 92,
+    "1": 285,
+    "2": 75
+  },
+  "actions_returned_by_depth": {
+    "0": 92,
+    "1": 51,
+    "2": 11
+  },
+  "actions_pruned_by_depth": {
+    "1": 234,
+    "2": 64
+  },
+  "deep_actions_pruned": 298,
+  "screenshots_saved_by_depth": {
+    "0": 6,
+    "1": 27,
+    "2": 11,
+    "3": 2
+  },
+  "deep_activity_expansion_skips": 19,
+  "backtrack_calls": 16,
+  "backtrack_failures": 9,
+  "backtrack_seconds": 78.0946382940092,
+  "go_back_calls": 81,
+  "go_back_seconds": 3.2882714130028035,
+  "restart_calls": 12,
+  "restart_seconds": 56.583222962002765,
+  "screenshots": 46,
+  "actions": 123,
+  "variant": "deeper",
+  "device": "127.0.0.1:5555",
+  "package": "tv.danmaku.bili",
+  "elapsed_seconds": 585.6869403749988,
+  "metadata_rows": 46,
+  "unique_activities": 15,
+  "exact_unique_images": 43,
+  "near_unique_images_dhash12": 39,
+  "screenshots_per_hour": 282.7449078751372,
+  "near_unique_images_per_hour": 239.7185088506598,
+  "near_duplicate_ratio": 0.15217391304347827,
+  "actions_per_screenshot": 2.6739130434782608
+}
